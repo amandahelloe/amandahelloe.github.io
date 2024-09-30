@@ -1,14 +1,18 @@
+
+/* Normal font and centering everything */
 * {
     font-family: "Oswald";
     text-align: center;
-
 }
+
+/* Links format*/
 a {
     text-decoration: none;
     color: white;
     font-size: 130%;
 }
 
+/* Album section size info*/
 #albumsection{
     background-color: #d11a5f;
     color: azure;
@@ -16,11 +20,15 @@ a {
     width: 100%;
     border-radius: 1%;
 }
+
+/* Album Section Image Sizing*/
 #albums{
     width: 96%;
     margin: 2%;
     background-color: #e677a29a;
 }
+
+/* Album Image formatting*/
 .album{
     width: 23%;
     height: 23%;
@@ -30,6 +38,7 @@ a {
     padding-top: 2%;
 }
 
+/* body format*/
 body {
     width: 96%;
     margin-bottom: 2%;
@@ -39,7 +48,7 @@ body {
     text-align: center;
     background-repeat: repeat;
 }
-
+/* Date and Location text formatting*/
 #comingto{
     float: left;
     width: 50%;
@@ -50,30 +59,36 @@ body {
     border-radius: 1%;
 }
 
+/* content format*/
 #content {
     width: 100%;
 }
 
+/* concert image formatting*/
 #fits{
     width: 50%;
     float: left;
     margin-top: 4%;
 }
 
+/* Largest text formatting*/
 h1 {
     color:#d11a5f;
     font-family: "Kanit";
     font-size: 200%;
 }
 
+/* Second largest text formatting*/
 h2 {
     font-size: 200%;
 }
 
+/* Third largest text formatting*/
 h3 {
     font-size: 150%;
 }
 
+/* header formatting*/
 #header{
     padding: 0%;
     margin: 0%;
@@ -82,19 +97,32 @@ h3 {
     border-radius: 1%;
 }
 
+/* background formatting*/
 html {
     background-image: url(../images/Background.png);
     padding-top: 0%;
     margin-top: 0%;
 }
 
+/* social media iframe formatting*/
+iframe {
+    height: 30%;
+}
 
+/* Ensuring all images are the width of their containers*/
 img {
     max-width: 100%;
     border-radius: 1%;
     border-color: #d11a5f;
     border-style: inset;
 }
+
+/* Text of form submit button*/
+input {
+    color: #d11a5f;
+}
+
+/* Formatting the logo in the header*/
 #logo {
     float: left;
     max-width: 5%;
@@ -102,90 +130,18 @@ img {
     background-color: #d11a5f;
     color: azure;
     margin-top: 0%;
-    padding-top: 0%;
-    
+    padding-top: 0%;    
 }
+
+/* Formatting the logo*/
 #logoimg {
     max-width: 100%;
     height: auto;
     background-color: #d11a5f;
     color: azure;
 }
-#nav {
-    float:left;
-    width: 100%;
-    padding-top: 0%;
-    margin-top: 0%;
-}
 
-ul {
-    width: 100%;
-    
-}
-#nickiimg1 {
-    float:left;
-    width: 50%;
-    height: auto;
-}
-#nicki1{
-    max-width: 100%;
-    height: auto;
-    border-radius: 1%;
-    border-color: #d11a5f;
-    border-style: inset;
-    margin: 5%;
-}
-#nickititle{
-    padding-top: 8%;
-    padding-bottom: 14%;
-    float: left;
-    width:45%;
-}
-li {
-    display: inline;
-    padding: 0.5em;}
-
-
-
-#setlist{
-    float: left;
-    width: 50%;
-    margin-top: 4%;
-}
-
-#theexperience{
-    float: left;
-    width: 50%;
-    aspect-ratio: 3/1.7;
-    margin-top: 4%;
-    color: white;
-    background-color: #d11a5f;
-    border-radius: 1%;
-}
-#tickets{
-    float:left;
-    width: 31.3%;
-    margin-left: 1%;
-    margin-right: 1%;
-    margin-top: 4%;
-    padding-bottom: 10%;
-    padding-top: 10%;
-    color: white;
-    background-color: #d11a5f;
-    margin-bottom: 2%;
-    border-radius: 1%;
-}
-
-textarea {
-    width: 33%;
-    color: #d11a5f;
-}
-
-#tickets a {
-    font-size: 170%;
-    font-weight: bold;
-}
-
+/* Formatting the navigation*/
 #nav{
     float: left;
     height: 100%;
@@ -194,6 +150,37 @@ textarea {
     color: azure;
 }
 
+/* Formatting the largest and main Nicki Image*/
+#nickiimg1 {
+    float:left;
+    width: 50%;
+    height: auto;
+}
+
+/*Nicki Minaj Image container*/
+#nicki1{
+    max-width: 100%;
+    height: auto;
+    border-radius: 1%;
+    border-color: #d11a5f;
+    border-style: inset;
+    margin: 5%;
+}
+
+/* Nicki Minaj Title*/
+#nickititle{
+    padding-top: 8%;
+    padding-bottom: 14%;
+    float: left;
+    width:45%;
+}
+
+/* Bullets in navigation*/
+li {
+    display: inline;
+    padding: 0.5em;}
+    
+/* Keep up with Barbz text*/
 #notifications{
     float:left;
     width: 31.3%;
@@ -208,15 +195,58 @@ textarea {
     border-radius: 1%;
 }
 
+/* link in notifications formatting*/
 #notifications a {
     font-size: 170%;
     font-weight: bold;
 }
 
-input {
+/* dates and times image formatting*/
+#setlist{
+    float: left;
+    width: 50%;
+    margin-top: 4%;
+}
+
+/* the experience text formatting*/
+#theexperience{
+    float: left;
+    width: 50%;
+    aspect-ratio: 3/1.7;
+    margin-top: 4%;
+    color: white;
+    background-color: #d11a5f;
+    border-radius: 1%;
+}
+
+/*get tickets text formatting*/
+#tickets{
+    float:left;
+    width: 31.3%;
+    margin-left: 1%;
+    margin-right: 1%;
+    margin-top: 4%;
+    padding-bottom: 10%;
+    padding-top: 10%;
+    color: white;
+    background-color: #d11a5f;
+    margin-bottom: 2%;
+    border-radius: 1%;
+}
+
+/* form text area formatting*/
+textarea {
+    width: 33%;
     color: #d11a5f;
 }
 
+/* Tickets link text*/
+#tickets a {
+    font-size: 170%;
+    font-weight: bold;
+}
+
+/* Social media box formatting */
 #tweets{
     float:left;
     width: 31.3%;
@@ -230,18 +260,23 @@ input {
     background-color: #d11a5f;
     border-radius: 1%;
 }
-iframe {
-    height: 30%;
+
+/* list format*/
+ul {
+    width: 100%; 
 }
+
+
 
 /* On screens that are 834px or less, apply a visible design/ layout change */
 @media screen and (max-width: 834px) {
+    /* increase link size*/
     a {
         text-decoration: none;
         color: white;
         font-size: 100%;
     }
-
+    /* change padding*/
     .album{
         width: 46%;
         height: 46%;
@@ -251,18 +286,21 @@ iframe {
         padding-top: 2%;
     }
 
+    /* change font size*/
     h1 {
         color:#d11a5f;
         font-family: "Kanit";
         font-size: 160%;
     }
+
+    /* change padding on title*/
     #nickititle{
         padding-top: 8%;
         padding-bottom: 5%;
         float: left;
         width:45%;
     }
-
+    /* column drop*/
     #notifications{
         float:left;
         width: 48%;
@@ -276,7 +314,7 @@ iframe {
         margin-bottom: 2%;
         border-radius: 1%;
     }
-
+    /* column drop */
     #tweets{
         float:left;
         width: 98%;
@@ -290,7 +328,7 @@ iframe {
         background-color: #d11a5f;
         border-radius: 1%;
     }
-
+    /* column drop*/
     #tickets{
         float:left;
         width: 48%;
@@ -308,6 +346,28 @@ iframe {
 
 /* On screens that are 598px or less, apply a visible design/ layout change */
 @media screen and (max-width: 598px) {
+    /* change font size*/
+    a {
+        text-decoration: none;
+        color: white;
+        font-size: 75%;
+    }
+    /* change padding*/
+    .album{
+        width: 46%;
+        height: 46%;
+        float: left;
+        margin: 2%;
+        padding-bottom: 1%;
+        padding-top: 1%;
+    }
+
+    /* change padding of list*/
+    li {
+        display: inline;
+        padding: 0.1em;}
+
+    /* column drop*/
     #comingto{
         float: left;
         width: 100%;
@@ -318,19 +378,19 @@ iframe {
         border-radius: 1%;
     }
 
-    
+    /* column drop*/
     #fits{
         width: 100%;
         float: left;
         margin-top: 4%;
     }
-
+    /* column drop*/
     #nickiimg1 {
         float:left;
         width: 98%;
         height: auto;
     }
-
+    /* column drop*/
     #nicki1{
         max-width: 100%;
         height: auto;
@@ -339,14 +399,14 @@ iframe {
         border-style: inset;
         margin: 1%;
     }
-
+    /* column drop*/
     #nickititle{
         padding-top: 3%;
         padding-bottom: 7%;
         float: left;
         width:100%;
     }
-
+    /* column drop*/
     #notifications{
         float:left;
         width: 98%;
@@ -360,13 +420,13 @@ iframe {
         margin-bottom: 2%;
         border-radius: 1%;
     }
-
+    /* column drop*/
     #setlist{
         float: left;
         width: 100%;
         margin-top: 4%;
     }
-
+    /* column drop*/
     #tweets{
         float:left;
         width: 98%;
@@ -380,7 +440,7 @@ iframe {
         background-color: #d11a5f;
         border-radius: 1%;
     }
-
+    /* column drop*/
     #tickets{
         float:left;
         width: 98%;
@@ -394,6 +454,7 @@ iframe {
         margin-bottom: 2%;
         border-radius: 1%;
     }
+    /* column drop*/
     #theexperience{
         float: left;
         width: 100%;
